@@ -1,0 +1,107 @@
+Static Respose:
+            If the response isn't varied from time to time and person to person
+            then it is consider to static response.
+            Log in is static response.
+
+Dynamic Reponse:
+            If the response is varied time to time and person to person 
+            then it is consider to dynamic response.
+
+
+login.html/login :: static response
+update-profile :: Dynamic Response
+check balance :: Dynamic Reponse
+
+for java :: spring boot + database
+for JS :: Node JS, Express + database
+For Python :: Django framework + database
+
+Framework :: Framework is the collection of files and 
+            its provide the complete application development life cycle tools.
+            Angular, Django, Spring Boot, Node JS, ASP.net are the example of frame work
+
+Library :: Library is the collection of files only.
+Bootstrap, React JS, JQuery are the library
+
+Django :: Is it the free and open source web framework .
+            It is written in python language.
+            It followed Model View Template(MVT) Architecutre.
+            Django maintained by Django software Foundation. 
+            Story of Django behind is Newspaper, Lowrence Journal and available public 2005 july.
+            Official Project is djangoproject.com
+
+
+            MVC refers (Model Veiw Controller) and MVT refers (Model View Template)
+
+Django Features:
+1. Fast :
+inbuilt databse and inbuilt server 
+It is designed for to help developers and programmers, tech application from concept to completion
+as quick as possible.
+
+2. Full Loaded :
+    Django provide common we development activity/task like user authentication, content management, content administration
+    site map creation, RSS. 
+
+3. Scalable:
+    To meet heaviest traffic demand django has available.
+    Flexible to meet heavy traffic.
+
+4. Versatile: 
+    It we want developp ecommerce, we application, Social media application, content management application
+    for any types of company so django is versatile.
+
+5. Secure:
+    Cross-site request forgery. 
+
+Sequences of Activities:
+How to create a django project ?
+> python --version
+> py -m django --version
+
+install django using -pip/pip3
+pip install django
+
+crate project: project means collection of application + configuration information
+
+
+How to create django projcet ?
+
+django-admin start-project firstproject 
+if showing internal/external command not found then use 
+python.exe -m pip install --upgrade pip
+
+
+create virtual environment
+For virtaul environment
+python -m venv django-env
+django-env\Scripts\activate
+
+manage.py:: 
+The most commonly used python script file is manage.py
+command line utility to interact Django Project in various way
+like - run server, run test cases, create migration, create super user
+
+__init__.py ::
+called as a package, acting as a module 
+It is blank/empty python file.Django treated as current folder is a pyton package.
+
+asgi.py ::
+Application Server Gateway Interface.
+
+wsgi.py
+Web Server Gateway Interface
+we can use this file setting, while deploying the application production
+
+settings.py::
+we have to specify all ours project settings and configuration like, installed apps, middleware information, databse 
+configuration information.
+
+urls.py:: 
+we have to store all application in pattern , store all our application in url patterns
+
+
+install django
+django.admin  startproject <projectname>
+py manage.py startapp userapp
+py manage.py runserver
