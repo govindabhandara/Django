@@ -102,6 +102,14 @@ we have to store all application in pattern , store all our application in url p
 
 
 install django
-django.admin  startproject <projectname>
+django-admin  startproject <projectname>
 py manage.py startapp userapp
 py manage.py runserver
+
+
+Create first Web Application
+startproject
+startapp
+runserver
+
+Step 1: 
