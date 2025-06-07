@@ -20,9 +20,13 @@ from myuserapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("",views.homepage),
     path('wish/',views.wish),
     path('index/',views.index),
     path('about/',views.service),
-    path('service',views.service)
+    path('service/',views.service),
+    path('test/', views.test, name='test'),
+    path('contact/',views.contact,name='contact'),
+    path('course/<courseid>',views.courseDetails),
 
 ]
